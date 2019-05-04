@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: bill-10-config-client-8888
+      profile: dev
+      label: master
+      uri: http://192.168.10.12:5001

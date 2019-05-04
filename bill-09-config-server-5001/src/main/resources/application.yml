@@ -1,0 +1,10 @@
+server:
+  port: 5001
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sunhaomalahuoguo/bill-configs.git
+  application:
+    name: bill-config-server

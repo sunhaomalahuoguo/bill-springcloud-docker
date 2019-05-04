@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      name: bill-03-bill-provider-8001
+      uri: http://192.168.10.12:5001
+      label: master
+#      profile: dev
+#  rabbitmq:
+#    host: 192.168.1.107
+#    username: guest
+#    password: guest
+#    port: 5672
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: bus-refresh

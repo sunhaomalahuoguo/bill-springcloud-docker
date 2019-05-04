@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: bill-05-eureka-6001
+      profile: dev
+      label: master
+      uri: http://192.168.10.12:5001
